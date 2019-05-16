@@ -1,0 +1,9 @@
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\bin\WebMACF.dll.config
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\bin\WebMACF.dll
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\bin\WebMACF.pdb
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\obj\Debug\WebMACF.csproj.CoreCompileInputs.cache
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\obj\Debug\WebMACF.dll
+c:\users\phat tran\Source\Repos\WebMACF\WebMACF\obj\Debug\WebMACF.pdb
+C:\Users\Phat Tran\Source\Repos\WebMACF\WebMACF\obj\Debug\WebMACF.csprojResolveAssemblyReference.cache

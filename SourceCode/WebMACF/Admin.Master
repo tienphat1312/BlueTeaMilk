@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebMACF.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" style="text/css" href= "App_Themes/THEMEtrchu/css_Ad.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <style type="text/css">
+        .txtAd{
+               width:40%;
+               height: 80px;
+               background-color:cornflowerblue;
+               margin-top: 15px;
+               border-radius:15px;
+               text-align:center;
+               padding-top:20px;
+               font-size:xx-large;
+        }
+
+         .Foooter{                    
+            height: 95px;
+            bottom:auto;
+            color:#fff; 
+            padding-top:20px; 
+            width: 100%;
+            background: #00003E;
+            background: -webkit-linear-gradient(to right, #31BDE6, #00003E); 
+            background: linear-gradient(to right, #31BDE6, #00003E); 
+            text-align:center;
+        }
+
+     </style>
+
+    <asp:ContentPlaceHolder ID="headAdmin" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+
+        <div id="logo">
+      
+			<li><div id="logo2"><a href="TRANGCHU.aspx"><img src="IMG_1/Untitled.png" width="750px" height="123"></a></div> </li>
+            
+	</div>
+           <center> <div class="txtAd">XIN CHÀO ADMIN !!</div></center>
+	<div id="menu">
+		<ul>
+			<li><a href = "QuanLySanPham.aspx" target ="_parent"> QUẢN LÝ SẢN PHẨM</a></li>	
+            <li><a href = "DonDatHang.aspx"target ="_parent"> ĐƠN ĐẶT HÀNG</a></li>
+			<li><a href = "QuanLyTinTuc.aspx"target ="_parent"> QUẢN LÝ TIN TỨC</a></li>
+            <li><a href = "QuanLyPhanHoi.aspx"target ="_parent">QUẢN LÝ BÌNH LUẬN</a></li>
+			
+		</ul>
+	</div>
+             <asp:ContentPlaceHolder ID="AdminMaster1" runat="server">
+
+                 </asp:ContentPlaceHolder>
+                
+            
+        </div>
+         <footer>
+
+       <div class="Foooter">
+           <div class="left-footer">
+
+               left
+
+           </div>
+           <div class="right-footer">
+
+               
+
+           </div>
+       </div>
+
+   </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="WebMACF.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <meta charset="utf-8">
+	
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" style="text/css" href= "App_Themes/THEMEtrchu/new.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <style type="text/css">
+        .BtnHead{
+         -webkit-transition-duration: 0.4s; /* Safari */
+         transition-duration: 0.4s;
+         background-color: white;
+         color: black;
+        border: 2px solid #4CAF50;
+        height: 60px;
+        width:60px;
+        border-radius: 100%;
+        float: right;
+        margin-top: 60px;
+
+       
+        }
+
+        .BtnHead:hover{
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+
+        #logo li a{
+            
+        }
+
+        .Foooter{                    
+            height: 95px;
+            bottom:auto;
+            color:#fff; 
+            padding-top:20px; 
+            width: 100%;
+            background: #00003E;
+            background: -webkit-linear-gradient(to right, #31BDE6, #00003E); 
+            background: linear-gradient(to right, #31BDE6, #00003E); 
+            text-align:center;
+        }
+        .right-footer{
+            float: right;
+            height: 80px;
+       font-size: 30px;
+            width: 40%;
+            padding-top:10px;
+        }
+
+        .left-footer{
+            float: left;
+            height: 80px;     
+            width: 40%;
+            font-size: 30px;
+             padding-top:10px;
+        }
+        #btnTTDh{
+            height: 40px;
+            width: 130px;
+             background-color:  #89EEFF; 
+            color: black; 
+             border: 2px solid #008CBA;
+             font-size: 20px;
+        }
+        #btnTTDh:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+     </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="headControl">
+      
+        </div>
+        <div id="logo">
+      
+			<li><div id="logo2"><a href="TRANGCHU.aspx"><img src="IMG_1\Untitled.png" width="100%" height="190px"></a>
+                              
+			    </div> </li>
+            <li>          
+             
+             </li>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href = "TrangChu.aspx" target ="_parent"><img src="App_Themes/THEMEtrchu/IMG/Users-talk-icon.png" width="20px" height="20px"> TRANG CHỦ</a></li>	
+			<li><a href = "ThucDon.aspx"target ="_parent"><img src="App_Themes/THEMEtrchu/IMG/if_45_Menu_106200.png" width="20px" height="20px"> THỰC ĐƠN</a></li>
+            <li><a href = "GioHang.aspx"target ="_parent"> <img src="IMG_1\if_add-buy-plus-shopping-cart_532814.png" width="20px" height="20px">GIỎ HÀNG</a></li>
+			<li><a href = "TinTuc.aspx"target ="_parent"><img src="IMG_1/news.png" width="20px" height="20px"> TIN TỨC</a></li>
+            <li><a href = "LienHe.aspx"target ="_parent"><img src="App_Themes/THEMEtrchu/IMG/if_Rounded-15_2024660.png" width="20px" height="20px">PHẢN HỒI</a></li>
+           
+             
+			 <li><a href = "TTDonHang.aspx" id="ttDh" target="_parent">ĐƠN HÀNG</a></li>
+					
+        </ul>
+	</div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   <footer>
+
+       <div class="Foooter">
+           <div class="left-footer">
+
+               BLUE TEA MILK
+
+           </div>
+           <div class="right-footer">
+
+               
+
+               HÂN HẠNH PHỤC VỤ
+
+               
+
+           </div>
+       </div>
+
+   </footer>
+    </form>
+</body>
+</html>
